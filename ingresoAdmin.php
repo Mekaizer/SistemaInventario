@@ -345,7 +345,7 @@ Luego llama al php guardarProducto para realizar las operaciones-->
 </div>
 <br>
 <div class="topnav">
-<a href="Login.php">Cerrar Sesión</a>        
+<a href="index.php">Cerrar Sesión</a>        
 </div>
 </body>
 </html>
