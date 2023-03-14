@@ -180,19 +180,22 @@ Luego llama al php guardarProducto para realizar las operaciones-->
         <br>
         <div >
         <h2>Mostrar Cambios</h2>
+        <br>
         <form  method="post" action="MostrarCambios.php">
         <div class="form-group">
         <div class="col-md-12">
+         
         <button type="submit" class="btn btn-primary btn-lg btn-block info">Mostrar</button>
         <input type="hidden" name="tipo" value="<?= isset($_SESSION['Tipo'])?htmlspecialchars($_SESSION['Tipo']):'' ?>"/>
         </div>
         </div>     
       </form>
     </div>
-
+    <br>
    
     <div>
     <h3>Ver Datos Usuario</h3>
+    <br>
     <form  method="post" action="Password.php">
       <button type="submit" class="btn btn-primary btn-lg btn-block info">Mostrar</button>
       <input type="hidden" name="rut" value="<?= isset($rut)?htmlspecialchars($rut):'' ?>">

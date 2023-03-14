@@ -22,7 +22,7 @@ $tipo=$_POST['tipo'];
     <th><?php echo "Fecha" ?></th>
 <?php 
 include("conexion.php");
-if($tipo=="ADMIN"){
+if($tipo=="ADMIN" || $tipo =="SADMIN"){
     $texto="./txt/todocambios.txt";
 }
 else{

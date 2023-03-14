@@ -287,7 +287,13 @@ Luego llama al php guardarProducto para realizar las operaciones-->
       <input name="Categoria" class="form-control" type="text"required>
       </div>
       </div>
-          
+        
+      <div class="form-group">
+      <div class="col-md-6">
+      <label class="control-label" for="category">Area</label>
+      <input name="area" class="form-control" type="text"required>
+      </div>
+      </div>
       <br>
       <div class="form-group">
       <div class="col-md-12">
@@ -296,7 +302,7 @@ Luego llama al php guardarProducto para realizar las operaciones-->
       </div>     
       <!--Esta linea sirve para dar datos que no se piden. pero existen y se quieren pasar a otra pagina -->
       <input type="hidden" name="tipo" value="<?= isset($_SESSION['Rut'])?htmlspecialchars($_SESSION['Rut']):'' ?>"/>
-      <input type="hidden" name="area" value="<?= isset($_SESSION['Area'])?htmlspecialchars($_SESSION['Area']):'' ?>"/>
+      
 
 
     </form>
@@ -347,7 +353,9 @@ Luego llama al php guardarProducto para realizar las operaciones-->
       <input type="hidden" name="rut" value="<?= isset($rut)?htmlspecialchars($rut):'' ?>">
       
     </form>
-      <br> 
+    <br> 
+    <br> 
+    <br> 
       </div>
      
       
