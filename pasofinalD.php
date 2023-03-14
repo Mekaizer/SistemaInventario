@@ -35,6 +35,6 @@ $d=  "DELETE FROM `sistemainventario`.`pedido`";
 #transformatxt("./txt/pdf.txt");
  
 $insertando = " DELETE from pedido"; $query = mysqli_query($conexion, $insertando);
-header('Location:Login.php');
+header('Location:index.php');
 	
 ?>

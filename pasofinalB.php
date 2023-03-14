@@ -22,6 +22,6 @@ $nombreDelDocumento = "Reporte de Retiro backup ".$semanaSiguiente.".pdf";
 $insertando = " DELETE from pedido"; $query = mysqli_query($conexion, $insertando);
 $bytes = file_put_contents("./pdfrespaldo/$nombreDelDocumento",$contenido  );//Se usa la libreria dompdf
 
-header('Location:Login.php');
+header('Location:index.php');
 	
 ?>

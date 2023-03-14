@@ -21,6 +21,6 @@ ob_start();
   $insertando = " DELETE from pedido"; $query = mysqli_query($conexion, $insertando);
   $dompdf->stream("Reporte de Entrada $semanaSiguiente .pdf");
 
-  header('Location:Login.php');
+  header('Location:index.php');
 
 ?>

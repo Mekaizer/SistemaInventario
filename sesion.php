@@ -60,6 +60,6 @@ if($cantidad>0){
 	
 }
 else{
-	echo "<script> alert('Contraseña o usuario incorrecto');location.assign('Login.php')</script>";
+	echo "<script> alert('Contraseña o usuario incorrecto');location.assign('index.php')</script>";
 }
 ?>

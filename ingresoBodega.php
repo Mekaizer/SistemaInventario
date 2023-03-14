@@ -82,7 +82,7 @@ $productos = "SELECT * from  producto";
             </form>
             
             <form  method="post" action="cambiarstock.php">
-            <td><button type="submit" name="code" method="post"action="login.php" value="<?= isset($cod)?htmlspecialchars($cod ):'' ?> "> Realizar pedido</button></td>
+            <td><button type="submit" name="code" method="post"action="index.php" value="<?= isset($cod)?htmlspecialchars($cod ):'' ?> "> Realizar pedido</button></td>
             <input  type="hidden" name="tipo" value="<?= isset($tipo)?htmlspecialchars($tipo):'' ?>">
             <input type="hidden" name="user" value="<?= isset($user)?htmlspecialchars($user):'' ?>">
             <?php
