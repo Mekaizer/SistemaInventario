@@ -1,0 +1,44 @@
+body{
+  background-image:url('./imagenes/logo.png');
+
+
+   
+
+
+  min-height: 100%;
+}
+
+.caja-login{
+  background-color: rgb(20, 90, 219);
+  background-clip: padding-box;
+  max-width:350px;
+  margin:0 auto;
+  padding:2% 0 0;
+  margin-top: 5%;
+  
+}
+.formulario-login-cabecera{
+ 
+  padding-top:8px;
+  width:100%;
+}
+.formulario-login{
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+  width:100%;
+  
+}
+.formulario-login-cabecera-fuente{
+  font-size:22px;
+  font-weight: bold;
+  color:#fff7f7;
+
+}
+.login-elements{
+
+  padding-top:16px;
+  padding-bottom:16px;
+  width:100%;
+}
+.formulario-login-cabecera-fuente span{
+  color:#fff7f7;
+} 

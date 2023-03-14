@@ -1,0 +1,76 @@
+body{
+  background-image: url('./imagenes/color.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  min-height: 100%;
+}
+.formulario-fuente{
+    font-size:15px;
+    font-weight: bold;
+    color:#08378f;
+  
+  }
+  .container {
+
+    aspect-ratio: 4/1;
+
+    overflow-y: scroll;
+
+  }
+  table, th, tr{
+    background-color:#1f56bd48;
+    width: 100%;  
+    color: black;
+    table-layout: fixed;
+    text-align: center;
+}
+.column {
+  float: left;
+  width: 60%;
+  
+
+}
+.column1 {
+  float: left;
+  width: 40%;
+  
+
+}
+.column2 {
+  float: left;
+  width: 50%;
+
+}
+td {
+    color: black;
+}
+div.form-group{
+  width: 100%; 
+  text-align-last: center;
+}
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(112, 134, 194);
+  }
+  
+
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.tablon{
+  float: center;
+  width: 100%;
+}

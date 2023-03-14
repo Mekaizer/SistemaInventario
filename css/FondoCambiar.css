@@ -1,0 +1,9 @@
+body{
+    background-image:url("./imagenes/fondo3.jpg");
+    background-size: cover;
+    min-height: 100%;
+  }
+  
+table, th, td {
+    border: 1px solid black;
+  }

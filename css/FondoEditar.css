@@ -1,0 +1,33 @@
+body{
+  background-image:url('./imagenes/fondo4.jpg');
+
+  min-height: 100%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(112, 134, 194);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .container {
+    width:70%;
+    aspect-ratio: 7/1;
+
+    overflow-y: scroll;
+
+  }
